@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
      void setUpMyViewPager(ViewPager vp){
          ViewPageAdapter vpa = new ViewPageAdapter(getSupportFragmentManager());
-         vpa.addMyFragment(new Fragment_1(), "YOo");
-         vpa.addMyFragment(new Fragment_2(), "Ak");
+         vpa.addMyFragment(new Fragment_1(), "YOoo");
+         vpa.addMyFragment(new Fragment_2(), "Akash");
          vpa.addMyFragment(new Fragment_3(), "Rana");
 
       vp.setAdapter(vpa);
